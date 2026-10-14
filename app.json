@@ -1,15 +1,27 @@
 {
   "expo": {
-    "name": "Assignment-02_Lapnh",
-    "slug": "Assignment-02_Lapnh",
+    "name": "Lapnh Shop",
+    "slug": "assignment-02-lapnh",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "scheme": "lapnhshop",
+    "plugins": [
+      "expo-router",
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon.png",
+          "color": "#1d4ed8"
+        }
+      ]
+    ],
     "ios": {
       "supportsTablet": true
     },
     "android": {
+      "package": "com.lapnh.assignment02",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/android-icon-foreground.png",
@@ -19,6 +31,16 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "experiments": {
+      "typedRoutes": false
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "7e2f1308-7694-4c59-85b6-b07fd5b23f50"
+      }
+    },
+    "owner": "huulap08"
   }
 }
