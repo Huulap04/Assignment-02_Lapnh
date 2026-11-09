@@ -1,0 +1,12 @@
+ASSIGNMENT 02 — LAPNH SHOP
+
+Git repository:
+https://github.com/Huulap04/Assignment-02_Lapnh
+
+Interview / demo video (replace this line with your personal Google Drive sharing link):
+<PASTE_GOOGLE_DRIVE_VIDEO_LINK_HERE>
+
+Important before submission:
+- Set the Google Drive video permission to “Anyone with the link can view”.
+- Test both links in an incognito/private browser window.
+- Do not commit .env or any Firebase/Gemini secret.
